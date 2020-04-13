@@ -8,6 +8,8 @@ Released under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Description
 
+![Screenshot](Screenshot.png "Screenshot")
+
 A random offset is added to each incoming MIDI note. This offset equals the value set by the 'Offset' dial multiplied by a random factor between -2 and 2. 
 The probability that a particular factor is selected equals the height of the corresponding bar in the weight table, divided by the sum of all heights of all bars in the table. The height of the bar thus determines the weight given to its corresponding factor
 
